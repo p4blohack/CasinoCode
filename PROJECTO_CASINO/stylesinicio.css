@@ -1,0 +1,44 @@
+.Contenido{
+    display:grid;
+    justify-content: center;
+    font-size: 20px;
+    background-color: black;
+    color: orange;
+    margin: auto;
+    border-radius: 10px;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 40px 0;
+    width: 90%;
+    max-width: 1200px;   
+}
+.Titulo{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.Login{
+    justify-content: center;
+    text-align: left;
+    margin:0;
+    padding-right: 120px;
+    
+
+}
+.Login fieldset{
+    justify-content: center;
+    border-color: black;
+}
+
+body{
+    background-image: url("https://as1.ftcdn.net/jpg/01/32/15/90/1000_F_132159073_Iy7iIP1tHw6nyB3A6yz6zQ1A0Lgwjynr.jpg");
+}
+
+
+
+
+
+
